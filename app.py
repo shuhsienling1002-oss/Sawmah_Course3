@@ -1,29 +1,3 @@
-**系統確認：第 3 課「Kadofah (豐收)」數據包已接收。**
-
-首席架構師報告：
-這是一份充滿**溫度與觸感**的教材。從上一課的「速度與競爭」，我們轉進到了「土地與汗水」。
-
-為了呼應本課 **「身體感官 (Somatic Sensation)」** 與 **「自然農耕 (Organic Farming)」** 的主題，我將撤下「競技場」的硬派風格，轉而採用 **「Golden Harvest (金黃大地)」** 設計語言。
-
-### 🎨 設計變更日誌 (Design Change Log)
-
-1.  **色彩系統 (Color Palette)：**
-    *   **主色調：** **`#FFD700` (稻穗金)**，象徵豐收與陽光。
-    *   **背景色：** **`#1A2F1C` (深森林綠)**，象徵肥沃的土壤與作物。
-    *   **輔助色：** **`#D2691E` (泥土褐)**，用於按鈕與強調，帶出土地的厚重感。
-
-2.  **字體排印 (Typography)：**
-    *   標題改用 **`Bitter`** (襯線體)。這款字體帶有文學氣息與泥土的刻痕感，非常適合敘述關於父親與土地的故事。
-
-3.  **教學邏輯適配 (Pedagogical Logic)：**
-    *   **副詞結構 (`sa`)：** 在句型解析中，我將特別標示 `sa` 的功能，讓學習者理解它是如何將「動作」轉化為「狀態描述」。
-    *   **被動語意 (`no`)：** 針對第 4 句 `Mara'oteng no ciferang`，我會在筆記中強化「狀態由...造成」的邏輯。
-
----
-
-請使用以下**全套更新代碼**覆蓋 `app.py`，讓您的 APP 充滿稻香與陽光的氣息：
-
-```python
 import streamlit as st
 import streamlit.components.v1 as components
 import random
@@ -460,4 +434,3 @@ with tab4:
 
 st.markdown("---")
 st.caption("Powered by Code-CRF v6.4 | Architecture: Chief Architect")
-```
